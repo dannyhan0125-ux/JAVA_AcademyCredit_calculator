@@ -214,33 +214,78 @@ public class Main {
         repo.clear();
 
         // 系上必修
-        repo.save(new Course("CS1001", "程式設計", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS1002", "資料結構", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS2001", "演算法", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS2002", "計算機組織", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS2003", "作業系統", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS3001", "計算機網路", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS3002", "軟體工程", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS3003", "資料庫系統", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS3004", "編譯器設計", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS3005", "離散數學", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS4001", "機器學習", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("CS4002", "深度學習", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("MATH001", "微積分一", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("MATH002", "微積分二", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("MATH003", "線性代數", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("PHYS001", "普通物理", 3, CreditCategory.REQUIRED_MAJOR));
-        repo.save(new Course("PHYS002", "普通物理實驗", 1, CreditCategory.REQUIRED_MAJOR));
+        //大一
+        repo.save(new Course("CSIE1001", "程式設計（一）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1002", "程式設計（二）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("MATH1061", "微積分一", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("MATH1062", "微積分二", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1004", "線性代數", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("PHYS1061", "普通物理學（一）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("PHYS1063", "普通物理學（二）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1011", "資訊技術專案開發與實作（一）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1012", "資訊技術專案開發與實作（二）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1003", "數位電路導論", 3, CreditCategory.REQUIRED_MAJOR));
+        //大二
+        repo.save(new Course("CSIE1006", "資料結構", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1008", "離散數學", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE3003", "演算法", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE2001", "計算機組織", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE2011", "電腦網路概論", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE3002", "機率與統計", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1007", "數位系統導論", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1070", "數位系統實驗", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1013", "資訊技術專案開發與實作（三）", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE1014", "資訊技術專案開發與實作（四）", 3, CreditCategory.REQUIRED_MAJOR));
+        //大三
+        repo.save(new Course("CSIE3090", "資訊專題（一）", 2, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE3092", "資訊專題（二）", 2, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE4008", "編譯系統", 3, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE3009", "微算機原理與應用（含實驗）", 4, CreditCategory.REQUIRED_MAJOR));
+        repo.save(new Course("CSIE3006", "作業系統", 3, CreditCategory.REQUIRED_MAJOR));
+        //大四 無
+        
+
 
         // 系上選修
-        repo.save(new Course("CS5001", "自然語言處理", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5002", "電腦視覺", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5003", "分散式系統", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5004", "資訊安全", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5005", "雲端計算", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5006", "行動應用開發", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5007", "嵌入式系統", 3, CreditCategory.MAJOR_ELECTIVE));
-        repo.save(new Course("CS5008", "計算生物", 3, CreditCategory.MAJOR_ELECTIVE));
+        //大一
+        repo.save(new Course("CSIE1016", "機器人軟體系統專案", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("ME2151", "從創意到創新", 1, CreditCategory.MAJOR_ELECTIVE));
+        //大二
+        repo.save(new Course("CSIE0090", "資訊工程倫理與生涯規劃", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2023", "進階英語課程-專業科學英文（一）", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2012", "Linux 系統與開源軟體", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2003", "視窗程式設計", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2000", "資訊安全", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("ME2152", "從創意到創新（二）", 2, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2017", "機器學習II: 非監督式學習", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2018", "集成卷積神經網路", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2027", "資料視覺化與探索", 2, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("EE2450", "傅立葉轉換在類比與數位通訊的應用", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE3014", "JAVA軟體開發", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2028", "機器人系統軟體開發", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE3019", "即時系統導論", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2013", "Linux系統程式設計", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2026", "物聯網設備之程式設計與界面", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2027", "資料視覺化與探索", 2, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2016", "機器學習I:監督式學習", 2, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2024", "進階英語課程-專業科學英文（二）", 1, CreditCategory.MAJOR_ELECTIVE));
+        //大三
+        repo.save(new Course("CSIE4007", "計算理論", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE2004", "多處理機平行程式設計", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE3023", "統計學習導論", 1, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE4001", "多媒體系統與應用", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE3022", "人工智慧在中醫的應用", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE4000", "訊號與系統", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE3018", "Linux核心設計", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE3017", "智慧型醫學資訊系統實作", 3, CreditCategory.MAJOR_ELECTIVE));
+        //大四
+        repo.save(new Course("CSIE5010", "人工智慧導論", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE5009", "影像處理、電腦視覺及深度學習概論", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE4035", "佇列系統與模型建構導論", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE4036", "機率模型及數據科學", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE5020", "創意行動網路APPs之系統技術與設計研發", 3, CreditCategory.MAJOR_ELECTIVE));
+        repo.save(new Course("CSIE5004", "繪圖技術設計與應用", 3, CreditCategory.MAJOR_ELECTIVE));
+
 
         // 通識課程
         repo.save(new Course("GE1001", "文學與藝術", 2, CreditCategory.GENERAL_EDUCATION));
