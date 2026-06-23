@@ -73,23 +73,22 @@ public class Main {
                             .forEach((cat, credits) -> System.out.printf("  %-10s：%.1f 學分%n",
                                     cat.getDisplayName(), credits));
                 }
+                // case "5" -> {
+                //     System.out.println();
+                //     graduationChecker.calculateShortfall(student)
+                //             .forEach((cat, shortfall) -> System.out.printf("  %-10s 尚缺 %d 學分%n",
+                //                     cat.getDisplayName(), shortfall));
+                // }
+                // case "6" -> {
+                //     boolean eligible = graduationChecker.checkGraduation(student);
+                //     System.out.println();
+                //     System.out.println(eligible ? "符合畢業資格" : " 尚未符合畢業資格");
+                // }
                 case "5" -> {
-                    System.out.println();
-                    graduationChecker.calculateShortfall(student)
-                            .forEach((cat, shortfall) -> System.out.printf("  %-10s 尚缺 %d 學分%n",
-                                    cat.getDisplayName(), shortfall));
-                }
-                case "6" -> {
-                    boolean eligible = graduationChecker.checkGraduation(student);
-                    System.out.println();
-                    System.out.println(eligible ? "符合畢業資格" : " 尚未符合畢業資格");
-                }
-                case "7" -> {
                     GraduationReport report = graduationChecker.generateReport(student);
                     System.out.println();
                     System.out.println(report);
                 }
-                case "8" -> printCourseCatalog(courseRepository);
                 case "0" -> {
                     System.out.println("\n掰掰！");
                     running = false;
@@ -239,10 +238,10 @@ public class Main {
         System.out.println("  2. 顯示已修課程清單");
         System.out.println("  3. 計算總學分");
         System.out.println("  4. 分類統計學分");
-        System.out.println("  5. 計算剩餘學分");
-        System.out.println("  6. 判斷畢業資格");
-        System.out.println("  7. 產生畢業進度報告");
-        System.out.println("  8. 查看課程目錄");
+        //System.out.println("  5. 計算剩餘學分");
+        //System.out.println("  6. 判斷畢業資格");
+        System.out.println("  5. 產生畢業進度報告");
+        //System.out.println("  8. 查看課程目錄");
         System.out.println("  0. 結束");
         System.out.print(">> ");
     }

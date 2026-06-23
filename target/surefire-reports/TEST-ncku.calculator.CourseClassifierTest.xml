@@ -1,75 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ncku.calculator.CourseClassifierTest" time="0.056" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ncku.calculator.CourseClassifierTest" time="0.11" tests="13" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="21"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="MS950"/>
-    <property name="java.class.path" value="C:\Users\danny\Documents\GitHub\JAVA_AcademyCredit_calculator\target\test-classes;C:\Users\danny\Documents\GitHub\JAVA_AcademyCredit_calculator\target\classes;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\danny\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\danny\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\danny\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\danny\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.class.path" value="C:\Users\libo0\Documents\GitHub\JAVA_AcademyCredit_calculator\target\test-classes;C:\Users\libo0\Documents\GitHub\JAVA_AcademyCredit_calculator\target\classes;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\libo0\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\libo0\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\libo0\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\libo0\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Taipei"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TW"/>
-    <property name="sun.boot.library.path" value="C:\Users\danny\.vscode\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64\bin"/>
-    <property name="sun.java.command" value="C:\Users\danny\AppData\Local\Temp\surefire18311579977096463519\surefirebooter-20260616100435372_3.jar C:\Users\danny\AppData\Local\Temp\surefire18311579977096463519 2026-06-16T10-04-35_068-jvmRun1 surefire-20260616100435372_1tmp surefire_0-20260616100435372_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\libo0\AppData\Local\Temp\surefire7006764795467948599\surefirebooter-20260623202415388_3.jar C:\Users\libo0\AppData\Local\Temp\surefire7006764795467948599 2026-06-23T20-24-15_084-jvmRun1 surefire-20260623202415388_1tmp surefire_0-20260623202415388_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\danny\Documents\GitHub\JAVA_AcademyCredit_calculator\target\test-classes;C:\Users\danny\Documents\GitHub\JAVA_AcademyCredit_calculator\target\classes;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\danny\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\danny\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\danny\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\danny\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\danny\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\libo0\Documents\GitHub\JAVA_AcademyCredit_calculator\target\test-classes;C:\Users\libo0\Documents\GitHub\JAVA_AcademyCredit_calculator\target\classes;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\libo0\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\libo0\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\libo0\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\libo0\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\libo0\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\danny"/>
+    <property name="user.home" value="C:\Users\libo0"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2026-01-20"/>
-    <property name="java.home" value="C:\Users\danny\.vscode\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\danny\Documents\GitHub\JAVA_AcademyCredit_calculator"/>
+    <property name="basedir" value="C:\Users\libo0\Documents\GitHub\JAVA_AcademyCredit_calculator"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\danny\AppData\Local\Temp\surefire18311579977096463519\surefirebooter-20260616100435372_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\libo0\AppData\Local\Temp\surefire7006764795467948599\surefirebooter-20260623202415388_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="21.0.10+7-LTS"/>
-    <property name="user.name" value="danny"/>
-    <property name="stdout.encoding" value="MS950"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="libo0"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-21.0.10+7"/>
-    <property name="localRepository" value="C:\Users\danny\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="C:\Users\danny\AppData\Local\Temp\"/>
-    <property name="java.version" value="21.0.10"/>
-    <property name="user.dir" value="C:\Users\danny\Documents\GitHub\JAVA_AcademyCredit_calculator"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="MS950"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\libo0\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\libo0\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\libo0\Documents\GitHub\JAVA_AcademyCredit_calculator"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="MS950"/>
-    <property name="java.library.path" value="C:\Users\danny\.vscode\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\danny\.vscode\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64\bin;C:\Users\danny\.maven\apache-maven-3.9.9\bin;C:/Users/danny/.gemini/antigravity-ide/bin;C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.3.0\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\danny\.maven\apache-maven-3.9.9\bin;C:\Users\danny\.vscode\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64;C:\Users\danny\scoop\apps\openssl\current\bin;C:\Users\danny\scoop\shims;C:\Users\danny\AppData\Local\Programs\Python\Python313;C:\Users\danny\AppData\Local\Programs\Python\Launcher\;C:\Users\danny\AppData\Local\Microsoft\WindowsApps;C:\Users\danny\AppData\Local\Programs\Microsoft VS Code\bin;C:\mingw64\bin;C:\Users\danny\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\danny\.dotnet\tools;C:\Users\danny\AppData\Local\GitHubDesktop\bin;C:\Users\danny\AppData\Local\Programs\Antigravity IDE\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\libo0\scoop\apps\mingw\14.2.0-rt_v12-rev0\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.9.13\bin;C:\Users\libo0\.local\bin;C:\Users\libo0\scoop\apps\nvm\current;C:\Users\libo0\scoop\apps\nvm\current\nodejs\nodejs;C:\Users\libo0\scoop\shims;C:\Users\libo0\AppData\Local\Microsoft\WindowsApps;C:\Users\libo0\scoop\apps\mingw\14.2.0-rt_v12-rev0\bin;C:\Users\libo0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\libo0\.dotnet\tools;C:\Users\libo0\AppData\Local\Programs\Antigravity\bin;C:\Users\libo0\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\libo0\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="MS950"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="21.0.10+7-LTS"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testA1_400_outsideElective" classname="ncku.calculator.CourseClassifierTest" time="0.02"/>
-  <testcase name="testA1_590_secondLanguage_boundary" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
-  <testcase name="testA1_500_secondLanguage" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
-  <testcase name="testA1_200_english" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
+  <testcase name="testA1_400_outsideElective" classname="ncku.calculator.CourseClassifierTest" time="0.039"/>
+  <testcase name="testA1_590_secondLanguage_boundary" classname="ncku.calculator.CourseClassifierTest" time="0.007"/>
+  <testcase name="testA1_500_secondLanguage" classname="ncku.calculator.CourseClassifierTest" time="0.003"/>
+  <testcase name="testA1_200_english" classname="ncku.calculator.CourseClassifierTest" time="0.002"/>
   <testcase name="testA2_pe" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
-  <testcase name="testClassifyDirect_nullForInteractiveTypes" classname="ncku.calculator.CourseClassifierTest" time="0.002"/>
+  <testcase name="testClassifyDirect_nullForInteractiveTypes" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
   <testcase name="testA9_generalEducation" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
-  <testcase name="testOther_outsideElective" classname="ncku.calculator.CourseClassifierTest" time="0.0"/>
-  <testcase name="testBlankCourseId_throwsException" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
-  <testcase name="testF7_departmentCourse" classname="ncku.calculator.CourseClassifierTest" time="0.002"/>
-  <testcase name="testA1_300_english_boundary" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
-  <testcase name="testA7_chinese" classname="ncku.calculator.CourseClassifierTest" time="0.0"/>
+  <testcase name="testOther_outsideElective" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
+  <testcase name="testBlankCourseId_throwsException" classname="ncku.calculator.CourseClassifierTest" time="0.003"/>
+  <testcase name="testF7_departmentCourse" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
+  <testcase name="testA1_300_english_boundary" classname="ncku.calculator.CourseClassifierTest" time="0.0"/>
+  <testcase name="testA7_chinese" classname="ncku.calculator.CourseClassifierTest" time="0.001"/>
   <testcase name="testA1_100_english" classname="ncku.calculator.CourseClassifierTest" time="0.0"/>
 </testsuite>
